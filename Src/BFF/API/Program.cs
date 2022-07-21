@@ -16,7 +16,7 @@ namespace BFF
             try
             {
                 var host = CreateHostBuilder(args).Build();
-
+                var i =0;
                 ServiceExtension.ConfigureLogging(host);
 
                 host.Run();
